@@ -11,7 +11,7 @@ const BlogLayout = ({ children }: BlogLayoutProps) => {
       <header>
         <h1>Redwood Blog</h1>
         <nav>
-          <ul>
+          <ul className={'flex'}>
             <li>
               <Link to={routes.home()}>Home</Link>
             </li>
